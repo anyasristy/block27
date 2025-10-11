@@ -1,0 +1,40 @@
+*{
+  margin: 2px;;
+  padding: 2px;;
+}
+body{
+  background:white;
+}
+#root{
+  display:flex;
+  align-items:center;
+  height:100vh;
+}
+main{
+  padding: 2rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 1rem black;
+}
+article,
+main{
+  display:grid;
+  gap:3ch;
+}
+h1{
+  text-align:center;
+}
+table{
+  border-collapse:collapse;
+}
+tbody tr:nth-child() {
+  background:whitesmoke;
+}
+tbody tr:hover{
+  cursor:pointer;
+  background:gray;
+}
+td{
+  padding:1ch;
+}
